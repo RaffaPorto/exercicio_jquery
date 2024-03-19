@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 55px;
+    margin-right: 16px;
+
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: 480px;
+    border-radius: 10px;
+    margin: 100px auto;
+    padding: 10px;
+    box-shadow: 0 0 100px 5px;
+    background: linear-gradient(180deg, rgb(206, 205, 162) 0%, rgb(255, 213, 0) 100%);
+}
+
+#form-compro {
+    display: flex;
+    align-items: center;
+}
+
+.container label {
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.container input {
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-right: 16px;
+    margin-left: 8px;
+
+}
+
+.container button img {
+    height: 18px;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+
+    } 
+
+#botao-adc {
+    border: none;
+    height: 30px;
+    margin-left: 8px;
+    justify-content: center;
+}
+
+#botao-fechar {
+    background-color: rgb(222, 59, 59);
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    margin-left: 8px;
+    justify-content: center;
+    
+}
+
+#botao-abrir {
+    background-color: green;
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    margin-left: 8px;
+    justify-content: center;
+}
+
+.container tbody {
+    height: 18px
+}
+
+.container h3 {
+    border-bottom: 2px solid black;
+    padding: 8px;
+    margin-bottom: 16px;
+} 
+
+.container form {
+    display: flex;
+}
+
+table div {
+    display: flex;
+}
+
+table,ul {
+    padding: 16px;
+    display: none;
+}
+
+li {
+    cursor: pointer;
+    text-decoration: line-through;
+    text-decoration: none;
+}
+
+footer {
+    font-size: 12px;
+}
