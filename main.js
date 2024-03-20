@@ -5,8 +5,7 @@ $('document').ready(function() {
     const nomeTarefa = $('#tarefas').val();
     const novoItem = $('<li></li>');
     $(`<form> ${nomeTarefa} <form/>`).appendTo(novoItem)
-    $(novoItem).appendTo('ul')
-    $(nomeTarefa).target("none")    
+    $(novoItem).appendTo('ul')  
     })
 
     $('#botao-fechar').click(function(){
@@ -17,7 +16,8 @@ $('document').ready(function() {
         $('ul').slideDown()
     })
 
-    $('ul').click(function(){
-    $('li').css("text-decoration", "line-through")
-        })
+    $('ul').on('click', 'li', function(){
+        $(this).css("text-decoration", "line-through")
+    })
+
 })
